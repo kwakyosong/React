@@ -1,0 +1,2 @@
+export const REACT_APP_SUPABASE_URL = 'https://fxtvsyapvzkzjtvabfip.supabase.co';
+export const REACT_APP_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ4dHZzeWFwdnpremp0dmFiZmlwIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzY0MTg4NDQsImV4cCI6MTk5MTk5NDg0NH0.T_mgAkmSeoHrzPF7TIqS4480I7uLxmUK6mPCD82skJU';

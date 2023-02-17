@@ -36,12 +36,15 @@ var getTotal2 = (cart) => {
 var getTotal3 = function(cart) { 
     return cart.price + '원';
 }
-
 function getTotal4(cart) { 
     return cart.price + '원';
+}
+const getTotal5 = (cart,cart2) => {
+    return cart.price * cart2.price;
 }
 
 console.log(`장바구니에 ${cart.name} 가 있습니다. 금액은 ` + getTotal1(cart) + '입니다.')
 console.log(`장바구니에 ${cart.name} 가 있습니다. 금액은 ` + getTotal2(cart) + '입니다.')
 console.log(`장바구니에 ${cart.name} 가 있습니다. 금액은 ` + getTotal3(cart) + '입니다.')
 console.log(`장바구니에 ${cart.name} 가 있습니다. 금액은 ` + getTotal4(cart) + '입니다.')
+console.log(`장바구니에 ${cart.name} 가 있습니다. 금액은 ` + getTotal5(cart,cart) + '입니다.')
